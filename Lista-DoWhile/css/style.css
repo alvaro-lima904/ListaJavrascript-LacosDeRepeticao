@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../img/fundo2.jpg) no-repeat;
+    background-size: cover;
+}
+
+.btn{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background: #0064FB;
+    transition: .4s;
+}
+
+.btn:hover{
+    background: #043681;
+    color: white;
+}
+
+#body{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header{
+    background-color: #0064FB;
+    border: 2px solid white;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 500px;
+}
+
+.container{
+    display: block;
+    background: rgba(255, 255, 255, 0.6);
+    margin-top: 30px;
+    width: 700px;
+    height: 400px;
+    border-radius: 40px;
+}
+
+.container .formulario{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.container .formulario .texto{
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #0064FB;
+}
+
+.container .resposta{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.container .direcionamento{
+    margin-top: 10px;
+}
+
+.container .direcionamento .links{
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.container .direcionamento .links:hover{
+    color: #0064FB;
+    transform: scale();
+}
+
+#numero04, #numero05{
+    margin-top: 10px
+}
